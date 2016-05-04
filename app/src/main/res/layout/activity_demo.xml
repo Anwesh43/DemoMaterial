@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dr_view"
+    tools:context="demos.anwesh.com.demomaterial.DemoActivity">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rec_v1">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_bar"
+        app:headerLayout="@layout/header_profile"
+        app:menu="@menu/nav_menus"></android.support.design.widget.NavigationView>
+
+
+    <!--<android.support.design.widget.CoordinatorLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="600dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/rec_v1"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:layout_behavior="@string/appbar_scrolling_view_behavior"></android.support.v7.widget.RecyclerView>&ndash;&gt;-->
+        <!--<android.support.design.widget.AppBarLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="192dp">-->
+            <!--<android.support.design.widget.CollapsingToolbarLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+                <!--<android.support.v7.widget.Toolbar-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:id="@+id/toolb1"-->
+                    <!--app:layout_scrollFlags="scroll|enterAlways"-->
+                    <!--app:layout_collapseMode="pin"></android.support.v7.widget.Toolbar>-->
+            <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+        <!--</android.support.design.widget.AppBarLayout>-->
+    <!--</android.support.design.widget.CoordinatorLayout>-->
+</android.support.v4.widget.DrawerLayout>

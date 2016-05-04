@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile" android:title="profiles" android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/orders" android:title="orders" android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/help" android:title="help" android:icon="@mipmap/ic_launcher"/>
+    </group>
+</menu>
